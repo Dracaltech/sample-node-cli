@@ -24,7 +24,7 @@ yarn start  //or `npm run start`
 ```
 
 ## Sample output
-<img src="https://github.com/Dracaltech/sample-node-vcp/assets/1357711/305ff9ae-2d98-4485-99a6-d09c02523d1e" width=400 />
+<img src="https://github.com/Dracaltech/sample-node-cli/assets/1357711/89afe858-7314-4acc-9633-73f848068e52" width=400 />
 
 ```
 Ξ dracal/sample-node-cli git:(main) ▶ yarn start
