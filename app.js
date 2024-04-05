@@ -16,9 +16,9 @@ const child = execFile('dracal-usb-get', ['-i','0,1,2'], (error, stdout, stderr)
 	}
 
 	// Display individual values
-	console.log("Temperature.(C): " + fields[0]);
-	console.log("RH..........(%): " + fields[1]);
-	console.log("Pressure..(kPa): " + fields[2]);
-	console.log("Temperature.(F): " + (fields[0] * 9 / 5 + 32));
+	console.log("Pressure..(kPa): " + fields[0]);
+	console.log("Temperature.(C): " + fields[1]);
+	console.log("RH..........(%): " + fields[2]);
+	console.log("Temperature.(F): " + (fields[1] * 9 / 5 + 32));
 
 });
